@@ -123,17 +123,17 @@
 }
 
 body {
-  font-family: var(--font-bebas-neue), var(--font-marvel), sans-serif;
+  font-family: var(--font-nunito), var(--font-inter), sans-serif;
   background-color: var(--black);
   color: var(--white)
 }
 
 .header-text {
-  font-family: var(--font-bebas-neue), sans-serif;
+  font-family: var(--font-inter), sans-serif;
 }
 
 .other-text {
-  font-family: var(--font-marvel), sans-serif;
+  font-family: var(--font-nunito), sans-serif;
 }
 
 .app-container {

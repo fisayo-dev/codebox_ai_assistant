@@ -2,15 +2,15 @@ import type { Metadata } from 'next';
 import './globals.css';
 import localFont from 'next/font/local';
 
-const marvelFont = localFont({
-  src: '../public/fonts/Marvel-Regular.ttf',
-  variable: '--font-marvel',
+const interFont = localFont({
+  src: '../public/fonts/Inter_18pt-Regular.ttf',
+  variable: '--font-inter',
 });
 
-const bebasNue = localFont({
-  src: '../public/fonts/BebasNeue-Regular.ttf',
-  variable: '--font-bebas-neue',
-})
+const nunitoFont = localFont({
+  src: '../public/fonts/Nunito-Regular.ttf',
+  variable: '--font-nunito',
+});
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -24,7 +24,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${marvelFont.variable} ${bebasNue.variable} antialiased`}>{children}</body>
+      <body className={`${interFont.variable} ${nunitoFont.variable} antialiased`}>{children}</body>
     </html>
   );
 }

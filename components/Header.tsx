@@ -1,4 +1,4 @@
-"use client"
+'use client';
 import { Link } from 'react-scroll';
 
 const Header = () => {
@@ -6,68 +6,65 @@ const Header = () => {
     <div className="bg-transparent backdrop-blur">
       <div className="app-container py-6">
         <div className="flex justify-between items-center">
-          <h2 className="text-5xl header-text">Thanos</h2>
+          <h2 className="text-5xl header-text">Codebox</h2>
           <ul className="other-text flex items-center space-x-4">
-            <li>  
-              <Link 
-                to="home" 
-                smooth={true} 
-                duration={500} 
-                className="hover:text-gray-300 text-xl cursor-pointer">
+            <li>
+              <Link
+                to="home"
+                smooth={true}
+                duration={500}
+                className="text-xl cursor-pointer hover:text-gray-300"
+                activeClass="text-blue-600" 
+                spy={true} 
+              >
                 Home
               </Link>
             </li>
             <li>
-              <Link 
-                to="powers" 
-                smooth={true} 
-                duration={500} 
-                className="hover:text-gray-300 text-xl cursor-pointer">
-                Powers
+              <Link
+                to="product"
+                smooth={true}
+                duration={500}
+                className="text-xl cursor-pointer hover:text-gray-300"
+                activeClass="text-blue-600"
+                spy={true}
+              >
+                Product
               </Link>
             </li>
             <li>
-              <Link 
-                to="origin" 
-                smooth={true} 
-                duration={500} 
-                className="hover:text-gray-300 text-xl cursor-pointer">
-                Origin
+              <Link
+                to="features"
+                smooth={true}
+                duration={500}
+                className="text-xl cursor-pointer hover:text-gray-300"
+                activeClass="text-blue-600"
+                spy={true}
+              >
+                Features
               </Link>
             </li>
             <li>
-              <Link 
-                to="mission" 
-                smooth={true} 
-                duration={500} 
-                className="hover:text-gray-300 text-xl cursor-pointer">
-                Mission
+              <Link
+                to="pricing"
+                smooth={true}
+                duration={500}
+                className="text-xl cursor-pointer hover:text-gray-300"
+                activeClass="text-blue-600"
+                spy={true}
+              >
+                Pricing
               </Link>
             </li>
             <li>
-              <Link 
-                to="team" 
-                smooth={true} 
-                duration={500} 
-                className="hover:text-gray-300 text-xl cursor-pointer">
-                Team
-              </Link>
-            </li>
-            <li>
-              <Link 
-                to="enemies" 
-                smooth={true} 
-                duration={500} 
-                className="hover:text-gray-300 text-xl cursor-pointer">
-                Enemies
-              </Link>
-            </li>
-            <li>
-              <Link 
-                to="newsletter" 
-                smooth={true} 
-                duration={500} 
-                className="hover:text-gray-300 text-xl cursor-pointer">
+              <Link
+                to="newsletter"
+                smooth={true}
+                duration={500}
+                className="text-xl cursor-pointer hover:text-gray-300"
+                activeClass="text-blue-600"
+                spy={true}
+              >
                 Newsletter
               </Link>
             </li>
