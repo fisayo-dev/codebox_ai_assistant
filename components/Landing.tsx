@@ -6,14 +6,15 @@ const Landing = () => {
       <div className="flex flex-col md:flex-row items-center justify-between min-h-[70vh] gap-8">
         {/* Left Content */}
         <div className="text-center md:text-left max-w-2xl">
-          <h2 className="text-5xl md:text-7xl font-bold leading-tight">
-            I am inevitable
-          </h2>
-          <p className="mt-4 text-lg w-full md:w-4/5 md:text-xl text-muted-foreground">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem omnis eveniet quos tempora deleniti nemo, reprehenderit officia rem odio error.
+          <h1 className="text-purple-600 text-6xl md:text-7xl font-bold leading-tight">
+            The Mad Titan Has Arrived
+          </h1>
+          <p className="mt-4 text-lg w-full md:w-4/5 md:text-xl text-gray-400">
+            Balance is not something one finds. It is something one must take.  
+            The universe lies in the palm of my hand.
           </p>
         </div>
-        
+
         {/* Right Image */}
         <div className="flex justify-center md:justify-end">
           <Image 
