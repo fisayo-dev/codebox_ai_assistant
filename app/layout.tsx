@@ -9,7 +9,7 @@ const marvelFont = localFont({
 
 const bebasNue = localFont({
   src: '../public/fonts/BebasNeue-Regular.ttf',
-  variable: '--font-bebas-nue',
+  variable: '--font-bebas-neue',
 })
 
 export const metadata: Metadata = {

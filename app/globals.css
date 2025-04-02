@@ -121,5 +121,14 @@
   }
 }
 
+body {
+  font-family: var(--font-bebas-neue), sans-serif;
+}
 
-/* --font-marvel, font-bebas-nue */
+.header-text {
+  font-family: var(--font-bebas-neue), sans-serif;
+}
+
+.app-container {
+  @apply container mx-auto xl:px-[5rem] px-5;
+}
