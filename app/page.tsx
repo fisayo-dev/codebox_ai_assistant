@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <>
       <Header />
-      <div className='pt-20'>
+      <div className='pt-[5rem]'>
         <Landing />
       </div>
     </>
