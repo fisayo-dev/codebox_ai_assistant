@@ -6,16 +6,16 @@ const Header = () => {
     <div className="bg-transparent backdrop-blur">
       <div className="app-container py-6">
         <div className="flex justify-between items-center">
-          <h2 className="text-5xl header-text">Codebox</h2>
+          <h2 className="text-4xl header-text">Codebox</h2>
           <ul className="other-text flex items-center space-x-4">
             <li>
               <Link
                 to="home"
                 smooth={true}
                 duration={500}
-                className="text-xl cursor-pointer hover:text-gray-300"
-                activeClass="text-blue-600" 
-                spy={true} 
+                className="cursor-pointer hover:text-gray-300"
+                activeClass="text-blue-600"
+                spy={true}
               >
                 Home
               </Link>
@@ -25,7 +25,7 @@ const Header = () => {
                 to="product"
                 smooth={true}
                 duration={500}
-                className="text-xl cursor-pointer hover:text-gray-300"
+                className="cursor-pointer hover:text-gray-300"
                 activeClass="text-blue-600"
                 spy={true}
               >
@@ -37,7 +37,7 @@ const Header = () => {
                 to="features"
                 smooth={true}
                 duration={500}
-                className="text-xl cursor-pointer hover:text-gray-300"
+                className="cursor-pointer hover:text-gray-300"
                 activeClass="text-blue-600"
                 spy={true}
               >
@@ -49,7 +49,7 @@ const Header = () => {
                 to="pricing"
                 smooth={true}
                 duration={500}
-                className="text-xl cursor-pointer hover:text-gray-300"
+                className="cursor-pointer hover:text-gray-300"
                 activeClass="text-blue-600"
                 spy={true}
               >
@@ -61,7 +61,7 @@ const Header = () => {
                 to="newsletter"
                 smooth={true}
                 duration={500}
-                className="text-xl cursor-pointer hover:text-gray-300"
+                className="cursor-pointer hover:text-gray-300"
                 activeClass="text-blue-600"
                 spy={true}
               >
