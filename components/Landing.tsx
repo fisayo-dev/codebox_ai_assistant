@@ -6,7 +6,7 @@ const Landing = () => {
       <div className="flex flex-col md:flex-row items-center justify-between min-h-[70vh] gap-8">
         {/* Left Content */}
         <div className="text-center md:text-left max-w-2xl">
-          <h1 className=" text-blue-600 text-4xl md:text-5xl font-bold leading-5">
+          <h1 className="text-blue-600 text-4xl md:text-5xl font-bold">
             CodeBox: Simplifying the Coding Process
           </h1>
           <p className="mt-4 text-sm w-full md:w-4/5 md:text-xl text-gray-400">

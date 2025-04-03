@@ -7,6 +7,11 @@ const interFont = localFont({
   variable: '--font-inter',
 });
 
+const soraFont = localFont({
+  src: '../public/fonts/Sora-Regular.ttf',
+  variable: '--font-sora',
+})
+
 const nunitoFont = localFont({
   src: '../public/fonts/Nunito-Regular.ttf',
   variable: '--font-nunito',
@@ -24,7 +29,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${interFont.variable} ${nunitoFont.variable} antialiased`}>{children}</body>
+      <body className={`${interFont.variable} ${soraFont.variable} ${nunitoFont.variable} antialiased`}>{children}</body>
     </html>
   );
 }
