@@ -3,7 +3,7 @@ import { Link } from 'react-scroll';
 
 const Header = () => {
   return (
-    <div className="bg-transparent backdrop-blur">
+    <div className="fixed w-full bg-transparent backdrop-blur">
       <div className="app-container py-6">
         <div className="flex justify-between items-center">
           <h2 className="text-3xl font-bold">Codebox</h2>

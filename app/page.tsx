@@ -5,7 +5,9 @@ export default function Home() {
   return (
     <>
       <Header />
-      <Landing />
+      <div className='pt-20'>
+        <Landing />
+      </div>
     </>
   );
 }
