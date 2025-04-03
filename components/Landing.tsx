@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import { Button } from './ui/button';
 
 const Landing = () => {
   return (
@@ -6,16 +7,16 @@ const Landing = () => {
       <div className="flex flex-col md:flex-row items-center justify-between min-h-[70vh] gap-8">
         {/* Left Content */}
         <div className="text-center md:text-left max-w-2xl">
-          <h1 className="text-blue-600 text-4xl md:text-5xl font-bold">
-            CodeBox: Simplifying the Coding Process
+          <h1 className="text-blue-500 text-4xl md:text-5xl">
+            <b className='font-extrabold'>CodeBox:</b> Simplifying the Coding Process
           </h1>
-          <p className="mt-4 text-sm w-full md:w-4/5 md:text-xl text-gray-400">
+          <p className="mt-4 text-sm w-full md:w-4/5 md:text-[1rem] text-gray-400">
             Say goodbye to complexity and hello to simplicity. CodeBox is an AI-powered tool designed to assist developers by streamlining the coding process, making your workflow faster and more efficient.
           </p>
           <div className="mt-6 flex justify-center md:justify-start">
-            <button className="cursor-pointer bg-blue-600 text-white px-6 py-3 rounded-full text-lg font-semibold hover:bg-blue-700 transition duration-300">
+            <Button className="cursor-pointer bg-blue-600 text-white px-6 py-3 rounded-full text-lg font-semibold hover:bg-blue-700 transition duration-300">
               Get Started
-            </button>
+            </Button>
           </div>
         </div>
 

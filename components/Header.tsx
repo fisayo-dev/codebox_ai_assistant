@@ -6,7 +6,7 @@ const Header = () => {
     <div className="bg-transparent backdrop-blur">
       <div className="app-container py-6">
         <div className="flex justify-between items-center">
-          <h2 className="text-4xl header-text">Codebox</h2>
+          <h2 className="text-3xl font-bold">Codebox</h2>
           <ul className="other-text flex items-center space-x-4">
             <li>
               <Link
