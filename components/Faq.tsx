@@ -62,7 +62,7 @@ const Faq = () => {
                 onClick={() => toggle(index)}
                 className="flex justify-between items-center w-full text-yellow text-lg font-medium focus:outline-none"
               >
-                <span>{faq.question}</span>
+                <span className="text-left">{faq.question}</span>
                 {openIndex === index ? (
                   <ChevronUp className="w-5 h-5" />
                 ) : (
@@ -70,7 +70,7 @@ const Faq = () => {
                 )}
               </button>
               {openIndex === index && (
-                <div className="mt-2 text-gray-300 text-sm">{faq.answer}</div>
+                <div className="mt-2 text-gray-300 text-sm text-left">{faq.answer}</div>
               )}
             </div>
           ))}
