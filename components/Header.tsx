@@ -8,13 +8,13 @@ const Header = () => {
       <div className="app-container py-6">
         <div className="flex justify-between items-center">
           <h2 className="text-3xl font-extrabold">CodeBox</h2>
-          <ul className="hidden md:flex items-center space-x-4">
+          <ul className="hidden md:flex items-center space-x-2">
             <li>
               <Link
                 to="home"
                 smooth={true}
                 duration={500}
-                className="cursor-pointer hover:text-gray-300"
+                className="cursor-pointer p-2 rounded-full hover:bg-gray-600/30"
                 activeClass="text-blue-600"
                 spy={true}
               >
@@ -27,7 +27,7 @@ const Header = () => {
                 to="features"
                 smooth={true}
                 duration={500}
-                className="cursor-pointer hover:text-gray-300"
+                className="cursor-pointer p-2 rounded-full hover:bg-gray-600/30"
                 activeClass="text-blue-600"
                 spy={true}
               >
@@ -39,7 +39,7 @@ const Header = () => {
                 to="pricing"
                 smooth={true}
                 duration={500}
-                className="cursor-pointer hover:text-gray-300"
+                className="cursor-pointer p-2 rounded-full hover:bg-gray-600/30"
                 activeClass="text-blue-600"
                 spy={true}
               >
@@ -51,7 +51,7 @@ const Header = () => {
                 to="newsletter"
                 smooth={true}
                 duration={500}
-                className="cursor-pointer hover:text-gray-300"
+                className="cursor-pointer p-2 rounded-full hover:bg-gray-600/30"
                 activeClass="text-blue-600"
                 spy={true}
               >
@@ -63,7 +63,7 @@ const Header = () => {
                 to="faq"
                 smooth={true}
                 duration={500}
-                className="cursor-pointer hover:text-gray-300"
+                className="cursor-pointer p-2 rounded-full hover:bg-gray-600/30"
                 activeClass="text-blue-600"
                 spy={true}
               >
@@ -75,7 +75,7 @@ const Header = () => {
                 to="contact"
                 smooth={true}
                 duration={500}
-                className="cursor-pointer hover:text-gray-300"
+                className="cursor-pointer p-2 rounded-full hover:bg-gray-600/30"
                 activeClass="text-blue-600"
                 spy={true}
               >
