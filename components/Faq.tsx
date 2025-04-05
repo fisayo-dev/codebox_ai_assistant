@@ -60,7 +60,7 @@ const Faq = () => {
             >
               <button
                 onClick={() => toggle(index)}
-                className="flex justify-between items-center w-full text-yellow text-lg font-medium focus:outline-none"
+                className="cursor-pointer flex justify-between items-center w-full text-yellow text-lg font-medium focus:outline-none"
               >
                 <span className="text-left">{faq.question}</span>
                 {openIndex === index ? (

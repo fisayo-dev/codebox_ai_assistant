@@ -15,7 +15,7 @@ const Newsletter = () => {
   };
 
   return (
-    <section className="app-container bg-black text-white py-20 px-4 md:px-10 lg:px-20">
+    <section id="newsletter" className="app-container bg-black text-white py-20 px-4 md:px-10 lg:px-20">
       <div className="max-w-3xl mx-auto text-center">
         <div className="flex justify-center mb-4">
           <Sparkles className="w-10 h-10 text-yellow" />
