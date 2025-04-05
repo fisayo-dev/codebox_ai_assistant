@@ -40,7 +40,7 @@ const Faq = () => {
   return (
     <section
       id="faq"
-      className="bg-black text-white py-20 px-4 md:px-10 lg:px-20"
+      className="app-container bg-black text-white py-20 px-4 md:px-10 lg:px-20"
     >
       <div className="max-w-4xl mx-auto text-center">
         <div className="flex justify-center mb-4">
