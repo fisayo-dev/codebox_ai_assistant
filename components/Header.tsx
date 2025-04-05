@@ -31,7 +31,7 @@ const Header = () => {
                   smooth={true}
                   duration={500}
                   className="cursor-pointer p-2 rounded-full hover:bg-gray-600/30 transition-colors"
-                  activeClass="text-yellow"
+                  activeClass="text-yellow bg-gray-600/30"
                   spy={true}
                 >
                   {label}
