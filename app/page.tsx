@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
       <Header />
-      <div className="grid gap-10 ">
+      <div className="grid space-y-9 ">
         <Landing />
         <Features />
         <Pricing />
