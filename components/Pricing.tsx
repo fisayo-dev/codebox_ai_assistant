@@ -108,7 +108,7 @@ const Pricing: React.FC = () => {
                   </li>
                 ))}
               </ul>
-              <Button className="w-full py-2 bg-yellow text-black rounded-full font-semibold hover:bg-yellow-500/90 transition-all">
+              <Button className="w-full py-2 bg-yellow text-black rounded-full font-semibold hover:bg-yellow-500 transition-all">
                 Get Started
               </Button>
             </div>
