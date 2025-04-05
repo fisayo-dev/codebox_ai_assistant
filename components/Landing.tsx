@@ -10,7 +10,7 @@ const Landing = () => {
           <h1 className="text-yellow text-4xl md:text-5xl font-bold">
             Your all-in-one AI coding assistant.
           </h1>
-          <p className="mt-4 text-sm w-full md:w-4/5 md:text-[1rem] text-gray-200">
+          <p className="mt-4 text-sm w-full md:w-4/5 md:text-[1rem] text-gray-400">
             Say goodbye to complexity and hello to simplicity. CodeBox is an AI-powered tool designed to assist developers by streamlining the coding process, making your workflow faster and more efficient.
           </p>
           <div className="mt-6 flex justify-center md:justify-start">
