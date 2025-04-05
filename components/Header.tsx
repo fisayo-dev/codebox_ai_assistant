@@ -39,8 +39,8 @@ const Header = () => {
               </li>
             ))}
           </ul>
-          <div className="block md:hidden p-3 rounded-full hover:bg-yellow-300 cursor-pointer transition-opacity">
-            <MenuIcon className="text-white h-8 w-8" />
+          <div className="block md:hidden p-3 rounded-full hover:bg-yellow-500 cursor-pointer transition-opacity hover:text-black">
+            <MenuIcon className="h-8 w-8" />
           </div>
         </div>
       </div>
