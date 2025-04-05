@@ -69,7 +69,7 @@ const Pricing: React.FC = () => {
         <div className="flex justify-center items-center mb-12">
           <div
             onClick={handleToggle}
-            className="flex bg-gray-800 rounded-full p-1 cursor-pointer transition-all"
+            className="flex border border-gray-500/20 hover:border-gray-500/40 bg-gray-900/50 rounded-full p-1 cursor-pointer transition-all"
           >
             <div
               className={`px-4 py-1 rounded-full font-medium transition-all duration-300 ${
