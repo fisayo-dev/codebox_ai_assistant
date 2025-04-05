@@ -42,10 +42,10 @@ import {
   
   const Features = () => {
     return (
-      <section id="features" className="section bg-black text-white py-16 px-4 md:px-10 lg:px-20">
+      <section id="features" className="section bg-black text-white app-container py-16 px-4 md:px-10 lg:px-20">
         <div className="max-w-6xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-yellow mb-4">
-            CodeBox Features
+            Our Features
           </h2>
           <p className="text-gray-400 max-w-2xl mx-auto mb-12">
             Boost your development workflow with CodeBox – your intelligent AI coding assistant built to supercharge your productivity.
@@ -54,7 +54,7 @@ import {
             {features.map((feature, index) => (
               <div
                 key={index}
-                className="bg-gray-900 p-6 rounded-2xl shadow-md hover:shadow-yellow transition-shadow"
+                className="bg-gray-900/30 border-[0.1rem] border-gray-500/20 hover:border-gray-500/40 p-6 rounded-2xl shadow-md hover:shadow-yellow transition-shadow cursor-pointer"
               >
                 <div className="mb-4 flex justify-center">{feature.icon}</div>
                 <h3 className="text-xl font-semibold text-yellow mb-2">{feature.title}</h3>
