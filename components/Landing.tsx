@@ -23,11 +23,10 @@ const Landing = () => {
         {/* Right Image */}
         <div className="flex justify-center md:justify-end">
           <Image
-            width={400}
-            height={400}
+            width={700}
+            height={700}
             src="/assets/ai-coding.svg"  // Use a relevant image to showcase AI or coding.
             alt="CodeBox AI Image"
-            className="w-64 md:w-96 object-contain"
           />
         </div>
       </div>
