@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React, { useState } from "react";
 import CountUp from "react-countup";
 import { DollarSign, Star, TrendingUp } from "lucide-react";
@@ -52,33 +52,48 @@ const Pricing: React.FC = () => {
   };
 
   return (
-    <section id="pricing" className="app-container bg-black text-white py-16 px-4 md:px-10 lg:px-20">
+    <section
+      id="pricing"
+      className="app-container bg-black text-white py-16 px-4 md:px-10 lg:px-20"
+    >
       <div className="max-w-5xl mx-auto text-center">
         <h2 className="text-3xl md:text-4xl font-bold text-yellow mb-4">
           Flexible Pricing Plans
         </h2>
         <p className="text-gray-400 mb-8">
-          Choose the plan that suits your needs and enjoy unparalleled productivity with CodeBox.
+          Choose the plan that suits your needs and enjoy unparalleled
+          productivity with CodeBox.
         </p>
+
+        {/* Custom Toggle */}
         <div className="flex justify-center items-center mb-12">
-          <span className="mr-2">Monthly</span>
-          <label className="relative inline-flex items-center cursor-pointer">
-            <input
-              type="checkbox"
-              checked={isAnnual}
-              onChange={handleToggle}
-              className="sr-only"
-            />
-            <div className="w-11 h-6 bg-gray-700/30 rounded-full peer peer-focus:ring-4 peer-focus:ring-yellow transition-all duration-300"></div>
-            <span className="absolute left-1 top-1 bg-white w-4 h-4 rounded-full transition-all duration-300 transform peer-checked:translate-x-5"></span>
-          </label>
-          <span className="ml-2">Annually</span>
+          <div
+            onClick={handleToggle}
+            className="flex bg-gray-800 rounded-full p-1 cursor-pointer transition-all"
+          >
+            <div
+              className={`px-4 py-1 rounded-full font-medium transition-all duration-300 ${
+                !isAnnual ? "bg-yellow text-black" : "text-white"
+              }`}
+            >
+              Monthly
+            </div>
+            <div
+              className={`px-4 py-1 rounded-full font-medium transition-all duration-300 ${
+                isAnnual ? "bg-yellow text-black" : "text-white"
+              }`}
+            >
+              Annually
+            </div>
+          </div>
         </div>
+
+        {/* Plans */}
         <div className="grid gap-8 sm:grid-cols-1 md:grid-cols-3">
           {plans.map((plan, index) => (
             <div
               key={index}
-              className="bg-gray-900/50  border-[0.1rem] border-gray-500/20 hover:border-gray-500/40 p-8 rounded-2xl shadow-md hover:shadow-yellow transition-shadow"
+              className="bg-gray-900/50 border-[0.1rem] border-gray-500/20 hover:border-gray-500/40 p-8 rounded-2xl shadow-md hover:shadow-yellow transition-shadow"
             >
               <div className="mb-4 flex justify-center">
                 <TrendingUp className="w-12 h-12 text-yellow" />
