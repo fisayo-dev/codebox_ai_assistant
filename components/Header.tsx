@@ -21,18 +21,7 @@ const Header = () => {
                 Home
               </Link>
             </li>
-            <li>
-              <Link
-                to="product"
-                smooth={true}
-                duration={500}
-                className="cursor-pointer hover:text-gray-300"
-                activeClass="text-blue-600"
-                spy={true}
-              >
-                Product
-              </Link>
-            </li>
+           
             <li>
               <Link
                 to="features"
@@ -67,6 +56,30 @@ const Header = () => {
                 spy={true}
               >
                 Newsletter
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="faq"
+                smooth={true}
+                duration={500}
+                className="cursor-pointer hover:text-gray-300"
+                activeClass="text-blue-600"
+                spy={true}
+              >
+                Faq
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="contact"
+                smooth={true}
+                duration={500}
+                className="cursor-pointer hover:text-gray-300"
+                activeClass="text-blue-600"
+                spy={true}
+              >
+                Contact
               </Link>
             </li>
           </ul>
