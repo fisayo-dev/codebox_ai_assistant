@@ -1,3 +1,4 @@
+import Faq from '@/components/Faq';
 import Features from '@/components/Features';
 import Header from '@/components/Header';
 import Landing from '@/components/Landing';
@@ -12,7 +13,8 @@ export default function Home() {
         <Landing />
         <Features />
         <Pricing />
-        <Newsletter/>
+        <Newsletter />
+        <Faq/>
       </div>
     </>
   );
