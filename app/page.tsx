@@ -1,5 +1,6 @@
 import Faq from '@/components/Faq';
 import Features from '@/components/Features';
+import Footer from '@/components/Footer';
 import Header from '@/components/Header';
 import Landing from '@/components/Landing';
 import Newsletter from '@/components/Newsletter';
@@ -14,7 +15,8 @@ export default function Home() {
         <Features />
         <Pricing />
         <Newsletter />
-        <Faq/>
+        <Faq />
+        <Footer />
       </div>
     </>
   );
