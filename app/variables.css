@@ -10,6 +10,7 @@
     --space-black: #1A1A1D;
     --neon-purple: #660099;
     --fire-gold: #FFCC00;
+    --yellow-color: #FFC727;
     --deep-red: #990000;
 }
 
@@ -26,6 +27,7 @@
 .bg-neon-purple { background-color: var(--neon-purple); }
 .bg-fire-gold { background-color: var(--fire-gold); }
 .bg-deep-red { background-color: var(--deep-red); }
+.bg-yellow { background-color: var(--yellow-color); }
 
 /* Classes for Text Colors */
 .text-black { color: var(--black); }
@@ -40,6 +42,7 @@
 .text-neon-purple { color: var(--neon-purple); }
 .text-fire-gold { color: var(--fire-gold); }
 .text-deep-red { color: var(--deep-red); }
+.text-yellow { color: var(--yellow-color); }
 
 /* Classes for Border Colors */
 .border-black { border: 2px solid var(--black); }
@@ -54,3 +57,4 @@
 .border-neon-purple { border: 2px solid var(--neon-purple); }
 .border-fire-gold { border: 2px solid var(--fire-gold); }
 .border-deep-red { border: 2px solid var(--deep-red); }
+.border-yellow { border: 2px solid var(--yellow-color); }

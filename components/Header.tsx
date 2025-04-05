@@ -83,7 +83,7 @@ const Header = () => {
               </Link>
             </li>
           </ul>
-          <div className='block md:hidden p-3 rounded-full hover:bg-blue-500 cursor-pointer transition-opacity'>
+          <div className='block md:hidden p-3 rounded-full hover:bg-yellow-300 cursor-pointer transition-opacity'>
             <MenuIcon className=" text-white h-8 w-8" />
           </div>
         </div>
