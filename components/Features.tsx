@@ -9,32 +9,32 @@ import {
   
   const features = [
     {
-      icon: <BrainCircuit className="w-8 h-8 text-yellow" />,
+      icon: <BrainCircuit className="w-20 h-20 text-yellow" />,
       title: "AI-Powered Suggestions",
       desc: "Get intelligent code suggestions in real-time while you type.",
     },
     {
-      icon: <TerminalSquare className="w-8 h-8 text-yellow" />,
+      icon: <TerminalSquare className="w-20 h-20 text-yellow" />,
       title: "Multi-Language Support",
       desc: "Supports a wide range of programming languages and frameworks.",
     },
     {
-      icon: <Lightbulb className="w-8 h-8 text-yellow" />,
+      icon: <Lightbulb className="w-20 h-20 text-yellow" />,
       title: "Smart Error Detection",
       desc: "Spot bugs and fix them before running your code.",
     },
     {
-      icon: <SearchCode className="w-8 h-8 text-yellow" />,
+      icon: <SearchCode className="w-20 h-20 text-yellow" />,
       title: "Code Search",
       desc: "Search and navigate your codebase effortlessly.",
     },
     {
-      icon: <Sparkles className="w-8 h-8 text-yellow" />,
+      icon: <Sparkles className="w-20 h-20 text-yellow" />,
       title: "Auto-Formatting",
       desc: "Consistently formatted code at the click of a button.",
     },
     {
-      icon: <Bot className="w-8 h-8 text-yellow" />,
+      icon: <Bot className="w-20 h-20 text-yellow" />,
       title: "Chat with AI",
       desc: "Ask coding questions and get answers instantly from CodeBox AI.",
     },
