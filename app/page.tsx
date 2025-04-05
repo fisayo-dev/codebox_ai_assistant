@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
       <Header />
-      <div className="pt-[5rem]">
+      <div className="grid gap-10 ">
         <Landing />
         <Features />
         <Pricing />

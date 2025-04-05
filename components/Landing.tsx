@@ -3,8 +3,8 @@ import { Button } from './ui/button';
 
 const Landing = () => {
   return (
-    <div id="home" className="section app-container py-12">
-      <div className="flex flex-col md:flex-row items-center justify-between min-h-[70vh] gap-8">
+    <div id="home" className="section app-container pt-[12rem]">
+      <div className="flex flex-col md:flex-row items-center py-6 justify-between gap-8">
         {/* Left Content */}
         <div className="text-center md:text-left max-w-2xl">
           <h1 className="text-yellow text-4xl md:text-5xl font-bold">
