@@ -107,7 +107,7 @@ const Pricing: React.FC = () => {
                   <CountUp
                     start={0}
                     end={isAnnual ? plan.annually : plan.monthly}
-                    duration={1.5}
+                    duration={1.9}
                     separator=","
                   />
                 </span>
