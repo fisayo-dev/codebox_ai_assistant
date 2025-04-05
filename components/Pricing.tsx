@@ -52,7 +52,7 @@ const Pricing: React.FC = () => {
   };
 
   return (
-    <section id="pricing" className="bg-black text-white py-16 px-4 md:px-10 lg:px-20">
+    <section id="pricing" className="app-container bg-black text-white py-16 px-4 md:px-10 lg:px-20">
       <div className="max-w-5xl mx-auto text-center">
         <h2 className="text-3xl md:text-4xl font-bold text-yellow mb-4">
           Flexible Pricing Plans
