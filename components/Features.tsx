@@ -54,7 +54,7 @@ import {
             {features.map((feature, index) => (
               <div
                 key={index}
-                className="bg-gray-900/30 border-[0.1rem] border-gray-500/20 hover:border-gray-500/40 p-6 rounded-2xl shadow-md hover:shadow-yellow transition-shadow cursor-pointer"
+                className="bg-gray-900/50 border-[0.1rem] border-gray-500/20 hover:border-gray-500/40 p-6 rounded-2xl shadow-md hover:shadow-yellow transition-shadow cursor-pointer"
               >
                 <div className="mb-4 flex justify-center">{feature.icon}</div>
                 <h3 className="text-xl font-semibold text-yellow mb-2">{feature.title}</h3>

@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import CountUp from "react-countup";
 import { DollarSign, Star, TrendingUp } from "lucide-react";
+import { Button } from "./ui/button";
 
 interface Plan {
   name: string;
@@ -68,7 +69,7 @@ const Pricing: React.FC = () => {
               onChange={handleToggle}
               className="sr-only"
             />
-            <div className="w-11 h-6 bg-gray-700 rounded-full peer peer-focus:ring-4 peer-focus:ring-yellow transition-all duration-300"></div>
+            <div className="w-11 h-6 bg-gray-700/30 rounded-full peer peer-focus:ring-4 peer-focus:ring-yellow transition-all duration-300"></div>
             <span className="absolute left-1 top-1 bg-white w-4 h-4 rounded-full transition-all duration-300 transform peer-checked:translate-x-5"></span>
           </label>
           <span className="ml-2">Annually</span>
@@ -77,7 +78,7 @@ const Pricing: React.FC = () => {
           {plans.map((plan, index) => (
             <div
               key={index}
-              className="bg-gray-900 p-8 rounded-2xl shadow-md hover:shadow-yellow transition-shadow"
+              className="bg-gray-900/50  border-[0.1rem] border-gray-500/20 hover:border-gray-500/40 p-8 rounded-2xl shadow-md hover:shadow-yellow transition-shadow"
             >
               <div className="mb-4 flex justify-center">
                 <TrendingUp className="w-12 h-12 text-yellow" />
@@ -85,7 +86,7 @@ const Pricing: React.FC = () => {
               <h3 className="text-2xl font-semibold text-yellow mb-4">
                 {plan.name}
               </h3>
-              <div className="mb-6 flex items-start gap-1 justify-center">
+              <div className="mb-6 flex items-start gap-2 justify-center">
                 <span className="text-6xl font-bold flex gap-1 items-center">
                   <DollarSign className="w-10 h-10" />
                   <CountUp
@@ -107,9 +108,9 @@ const Pricing: React.FC = () => {
                   </li>
                 ))}
               </ul>
-              <button className="w-full py-2 bg-yellow text-black rounded-full font-semibold hover:bg-yellow/90 transition-all">
+              <Button className="w-full py-2 bg-yellow text-black rounded-full font-semibold hover:bg-yellow-500/90 transition-all">
                 Get Started
-              </button>
+              </Button>
             </div>
           ))}
         </div>
