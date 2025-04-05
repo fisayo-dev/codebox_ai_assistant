@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
       <Header />
-      <div className="grid space-y-9 ">
+      <div className="grid ">
         <Landing />
         <Features />
         <Pricing />

@@ -42,7 +42,7 @@ import {
   
   const Features = () => {
     return (
-      <section id="features" className="section bg-black text-white app-container py-16 px-4 md:px-10 lg:px-20">
+      <section id="features" className="section bg-black text-white app-container py-20 px-4 md:px-10 lg:px-20">
         <div className="max-w-6xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-yellow mb-4">
             Our Features
