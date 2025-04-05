@@ -9,8 +9,8 @@ import {
 
 const Footer = () => {
   return (
-    <footer className="app-container bg-black text-gray-400 py-20  px-4 md:px-10 lg:px-20 border-t border-gray-800">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-12">
+    <footer className="app-container bg-black text-gray-400  pb-4  px-4 md:px-10 lg:px-20 ">
+      <div className="border-t border-gray-800 pt-20 max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-12">
         {/* Logo & About */}
         <div>
           <div className="flex items-center gap-2 mb-4">
