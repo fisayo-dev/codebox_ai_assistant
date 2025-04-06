@@ -14,7 +14,6 @@ const navLinks: NavLink[] = [
   { label: 'Pricing', to: 'pricing' },
   { label: 'Newsletter', to: 'newsletter' },
   { label: 'Faq', to: 'faq' },
-  { label: 'Contact', to: 'contact' },
 ];
 
 const Header = () => {
