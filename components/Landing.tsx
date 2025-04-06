@@ -3,8 +3,22 @@ import { Button } from './ui/button';
 
 const Landing = () => {
   return (
-    <div id="home" className="section app-container pt-[12rem]">
-      <div className="flex flex-col md:flex-row items-center py-6 justify-between gap-8">
+    <div id="home" className="section app-container relative overflow-hidden pt-[12rem]">
+      {/* Grid Overlay */}
+      <div
+        className="absolute inset-0 z-0 pointer-events-none"
+        aria-hidden="true"
+      >
+        <div className="w-full h-full bg-[radial-gradient(#d1d5db_1px,transparent_1px)] [background-size:20px_20px] opacity-30"
+             style={{
+               maskImage: 'linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0))',
+               WebkitMaskImage: 'linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0))'
+             }}
+        />
+      </div>
+
+      {/* Main Content */}
+      <div className="relative z-10 flex flex-col md:flex-row items-center py-6 justify-between gap-8">
         {/* Left Content */}
         <div className="text-center md:text-left max-w-2xl">
           <h1 className="text-yellow text-4xl md:text-5xl font-bold">
@@ -25,7 +39,7 @@ const Landing = () => {
           <Image
             width={700}
             height={700}
-            src="/assets/ai-coding.svg"  // Use a relevant image to showcase AI or coding.
+            src="/assets/ai-coding.svg"
             alt="CodeBox AI Image"
           />
         </div>
