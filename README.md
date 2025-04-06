@@ -2,6 +2,7 @@
 
 **CodeBox** is an AI-powered coding assistant that supercharges your development workflow with real-time code suggestions, smart error detection, multi-language support, and more. Built with Next.js and TypeScript, CodeBox delivers a modern, responsive, and intuitive experience for developers. This project is submitted for the [Pulumi Hackathon](https://dev.to/devteam/announcing-the-pulumi-deploy-and-document-challenge-3000-in-prizes-887?) Static website category. and showcases industry-standard UI/UX and robust functionality. **This is jsut a website of a typical application. No backend involved**
 
+[![CodeBox App Image](./public/Codebox_bg_img.jpg)]()
 ---
 
 ## Table of Contents
